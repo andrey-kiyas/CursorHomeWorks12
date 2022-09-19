@@ -15,11 +15,11 @@ ___
 ___
 ### UA
 1) Впровадити REST API для ресурсу /products із 5 зіставленнями:
-   - ОТРИМАТИ /продукти
-   - ОТРИМАЙТЕ /products/{id}
-   - POST /продукти
+   - GET /products
+   - GET /products/{id}
+   - POST /products
    - PUT /products/{id}
-   - ВИДАЛИТИ /products/{id}
+   - DELETE /products/{id}
 
 2) Додайте HTTP-кеш Etag для кінцевих точок GET /products і GET /products/{id}
 ---
